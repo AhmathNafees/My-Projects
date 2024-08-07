@@ -1,0 +1,118 @@
+body
+{
+    background-image: url(../images/RUSLBG.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.Login
+{
+    /* text-align: center; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 400px;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: 1200;
+    background-image: url(../images/Login\ Frame.jpg);
+    background-size:cover;
+    
+}
+.Login h1
+{
+    background-color:rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size:40px;
+}
+.Login label
+{
+    display: block;
+    padding-left: 10px;
+
+}
+.Login input
+{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    padding: 5px 5px;
+    box-sizing: border-box; /*stretch box size */
+    margin: 10px 0px 20px ;
+    outline: 0px;
+}
+input:focus
+{
+    background-color: aqua;
+}
+.submit
+{
+    /* max-width: fit-content; */
+    text-align: center;
+    margin-top: -30px;
+}
+button:hover
+{
+    background-color: aliceblue;
+}
+button
+{
+    font-size: 25px;
+    padding: 0px;
+    box-shadow: inset;
+    text-shadow: 2px 2px 2px blue;
+    border-radius: 10px;
+    background-color:black;
+    color: aqua;
+    border: 2px solid aqua;
+}
+.bottom_login p
+{
+    text-align: center;
+    margin: -100px 36% auto;
+    width: max-content;
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    text-align:justify;
+    padding: 5px;
+}
+.Sign_up
+{
+    text-shadow: 1px 1px 1px black;
+    color: aqua;
+    background-color: black;
+    padding:10px 10px;
+    border-radius: 10px;
+    margin:0 36% auto;
+    border: 1px solid aqua;
+}
+.Sign_up:hover
+{
+    background-color: aliceblue;
+}
+.invalid
+{
+    border: 1px solid aqua;
+    border-radius: 10px;
+    width: fit-content;
+    position: relative;
+    left: 36%;
+    /* bottom: 50%; */
+    padding: -10px;
+    background-color: black;
+    color: red;
+}
+.forgot_btn
+{
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 45%;
+    font-size: 18px;
+    position: absolute;
+    bottom: -11px;
+    
+
+}

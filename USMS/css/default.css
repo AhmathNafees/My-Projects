@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu a
+{
+    /* text-align: center; */
+    margin: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    /* padding-left: 20px; */
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    -moz-radius-radius: 10px;
+    -webkit-border-radius: 10px;
+    border:2px solid aqua;
+    
+}
+.menu
+{
+    background-image: url(../images/menu_frame.jpg);
+    background-size:50% ;
+    width: auto;
+    height: 100px;
+    position: relative;
+}
+.profile
+{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-image: url(/images/profile.jpg);
+    background-size: cover;
+    right: 0.5% !important;
+    top: 1% !important;
+    border-radius: 100% !important;
+    cursor: pointer;
+}
+
+.head
+{
+    text-align: center;
+    margin-top: 10px;
+
+}
+h1
+{
+    color: aqua;
+    /* background-color:noun; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    text-shadow: 2px 2px 2px blue;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 34px;
+    
+}
+a
+{
+    color: black;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 2px blue;
+    font-size: 1.2em;
+}
+.menu a:hover
+{
+    color: aqua;
+}
+p
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div
+{
+    /* border: 1px solid; */
+}

@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container
+{
+    display: flex;
+    /* height: 100vh; */
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/RUSLBG.jpg);
+    background-size: cover;
+    
+    
+}
+.reg_form
+{
+    background:url(/images/Login\ Frame.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    border-color: aqua;
+    border-width: 2px;
+    border-style: inset;
+    color: aqua;
+}
+.reg_form h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 1px 3px blue;
+}
+.reg_form div
+{
+    padding: 10px;
+    margin-top: -10px;
+
+}
+.reg_form div input
+{
+    width: 100%;
+    font-size: 20px;
+    padding: 5px 10px;
+    background-color: aqua;
+}
+input:focus
+{
+    background-color: aqua !important;
+}
+.reg_form div label
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+.reg_form .gender input[type="radio"]
+{
+    margin-bottom: -40px; 
+    height: 20px;
+    width: 20px;
+    accent-color: aqua;
+    
+}
+.reg_form .gender label
+{
+    margin-right: 10px;
+    align-items: center;
+}
+.ver_cre
+{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.reg_form .btn
+{
+    text-align: center;
+    
+}
+.reg_form .btn button
+{
+    width: 100%;
+    font-size: 1.4em;
+    border-radius: 10px;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* text-shadow: 1px 1px 1px white; */
+    background-color: transparent;
+    border-style:inset;
+    outline: none;
+    color: white;
+}
+button:hover
+{
+    color: aqua !important;
+}
+.input-group .error
+{
+    color: rgb(242, 18, 18);
+}
+.input-group.success input
+{
+    border-color:#0cc477 ;
+}
+.input-group.error input
+{
+    border-color:rgb(206, 67, 67) ;
+}
+.Select-box
+{
+    background-color:black;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 10px;
+    border: 1px solid aqua;
+    padding-right: 20px;
+    color: aqua;
+}
+.Select-box:active 
+{
+    background-color:black;
+}
+.Select-box:hover
+{
+    background-color:black;
+}

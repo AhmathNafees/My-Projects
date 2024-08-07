@@ -1,0 +1,79 @@
+body
+{
+    background-image: url(/images/RUSLBG.jpg)  ;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.container
+{
+    background-image: url(/images/Login\ Frame.jpg)  ;
+    background-size: cover;
+    width: 50vw;
+    margin-left: 25%;
+    display: flex;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+    
+
+}
+/* .firstgroup
+{
+    
+} */
+/* .secendgroup
+{
+    width: 50%;
+} */
+.group
+{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0 10px 30px;
+    color: aliceblue;
+    width: 100%;
+}
+.header
+{
+    color:black;
+    text-align: center;
+}
+.menu a
+{
+    /* text-align: center; */
+    margin: 20px;
+    padding: 9px;
+    margin-top: 20px;
+    /* padding-left: 20px; */
+    background-color: black;
+    color: aliceblue;
+    border-radius: 10px;
+    -moz-radius-radius: 10px;
+    -webkit-border-radius: 10px;
+    border:2px solid aqua;
+    text-decoration: none;
+}
+.menu a:hover
+{
+    color: aqua;
+}
+.edit-form 
+{
+    display: none;
+}
+.btne_s
+{
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 5px 20px 5px 20px;
+    color: aliceblue;
+    background-color: black;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+/* div
+{
+    border: 1px solid aliceblue;
+} */
