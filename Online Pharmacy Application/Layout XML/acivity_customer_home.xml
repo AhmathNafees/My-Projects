@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    tools:context=".CustomerHome">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="60dp"
+        android:theme="?attr/actionBarTheme"
+        android:elevation="4dp">
+
+        <!-- Left-aligned ImageView -->
+        <ImageView
+            android:id="@+id/overflowButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/im_45"
+            android:contentDescription="Overflow Menu"
+            android:layout_marginStart="16dp"
+            android:layout_gravity="start|center_vertical" />
+
+        <!-- Right-aligned ImageView -->
+        <ImageView
+            android:id="@+id/ordersButton"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/img_1"
+            android:contentDescription="Orders Menu"
+            android:layout_marginEnd="16dp"
+            android:layout_gravity="end|center_vertical" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <!-- User's name TextView -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="16dp"
+        android:text="Hi, User"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- SwipeRefreshLayout with RecyclerView -->
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/textView">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/cameraButton"
+        android:layout_width="wrap_content"
+        android:verticalScrollbarPosition="defaultPosition"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:contentDescription="Prescription"
+        android:src="@drawable/img_2"
+        app:backgroundTint="@color/white"
+        android:tint="@color/white" />
+</RelativeLayout>
