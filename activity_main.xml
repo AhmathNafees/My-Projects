@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rounded_bg"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="15dp">
+
+        <ImageView
+            android:id="@+id/imageView_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="180dp"
+            android:src="@drawable/medi"/>
+
+        <TextView
+            android:id="@+id/textView_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_logo"
+            android:layout_marginTop="120dp"
+            android:textColor="#fff"
+            android:text="MediScan"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
+
+        <TextView
+            android:id="@+id/textView_main_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_app_name"
+            android:layout_marginTop="10dp"
+            android:text="Welcome to our App"
+            android:textColor="#fff"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+        <Button
+            android:id="@+id/button_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary"
+            android:layout_below="@id/textView_main_head"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/round_button_white"
+            android:layout_marginTop="50dp"
+            android:text="Login"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_login"
+            android:layout_marginTop="30dp"
+            android:textColor="#fff"
+            android:textSize="15dp"
+            android:text="Do not have an account?"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/button_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_register"
+            android:text="Register"
+            android:textColor="@color/primary"
+            android:background="@drawable/round_button_white"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+</ScrollView>
