@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/role_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RoleSelectionActivity"
+    android:background="@drawable/rounded_bg"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/medi"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="App Logo" />
+
+    <TextView
+        android:id="@+id/selectRoleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Role"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@id/logoImage"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <Button
+        android:id="@+id/customerButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@id/selectRoleTitle"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:background="@drawable/round_button_white"
+        android:textColor="@color/primary"
+        android:layout_centerHorizontal="true"
+        style="@style/MaterialAlertDialog.Material3"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Customer" />
+
+    <Button
+        android:id="@+id/pharmacyButton"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        style="@style/MaterialAlertDialog.Material3"
+        android:layout_below="@id/customerButton"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/round_button_white"
+        android:textColor="@color/primary"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Pharmacy" />
+
+</RelativeLayout>
